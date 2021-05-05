@@ -13,7 +13,6 @@ const CovidMap = ({ countries }) => {
   const onEachCountry = (country, layer) => {
     layer.options.fillColor = country.properties.color;
     const name = country.properties.ADMIN;
-    console.log()
     layer.bindTooltip(
       `
         <p>${name.length }<p>
