@@ -3,3 +3,23 @@
   /* background-color: rgb(178, 210, 222); */
   background-color: rgb(163, 206, 255);
 }
+
+.leaflet-tooltip.my-labels {
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  display: flex;
+  color: ;
+  font-size: 18px;
+  flex-direction: column;
+
+}
+.leaflet-tooltip.my-labels :first-child {
+  color: darkblue;
+  font-size: 25;
+  font-weight: bold;
+}
+
+.leaflet-tooltip.my-labels :last-child {
+  color: yellow;
+}
